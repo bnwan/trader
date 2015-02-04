@@ -1,0 +1,22 @@
+{
+  "browsers": {
+    "local": [
+      {
+        "command": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+        "version": "9.11.9600.17498",
+        "windows": true,
+        "name": "ie",
+        "type": "ie",
+        "profile": false
+      },
+      {
+        "command": "\\Users\\benjamin\\Local Settings\\Application Data\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "40.0.2214.94",
+        "name": "chrome",
+        "re": {},
+        "type": "chrome",
+        "profile": "undefined\\.config\\browser-launcher\\chrome-40.0.2214.94_bef15e87"
+      }
+    ]
+  }
+}

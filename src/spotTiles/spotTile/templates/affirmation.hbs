@@ -1,0 +1,33 @@
+<table style="height: 144px;">
+  <tr>
+    <td>
+      <span data-hook="currencyPair" class="tile-symbol"></span>
+      <span data-hook="rejected" class="tile-symbol" style="float: right; margin-right: 10px; font-weight: 500;">REJECTED</span>
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px">
+      <span data-bind="style: { 'textDecoration': rejected ? 'line-through' : '' }" style="color:white">
+      <span data-hook="direction" class="secondary-foreground"></span>
+      <span data-hook="dealtCurrency" class="primary-foreground"></span>
+      <span data-hook="notional" class="primary-foreground"></span>
+      <br />
+      <span class="secondary-foreground">vs</span>
+      <span data-hook="otherCurrency" class="primary-foreground"></span>
+      <span class="secondary-foreground">at</span>
+      <span data-hook="spotRate" class="primary-foreground"></span>
+      </span>
+      <br />
+      <span class="secondary-foreground">Spot</span>
+      <span data-hook="valueDate" class="primary-foreground"></span>
+      <br />
+      <span class="secondary-foreground">Trade ID</span>
+      <span data-hook="tradeId" class="primary-foreground"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a data-hook="dismiss">Done</a>
+    </td>
+  </tr>
+</table>

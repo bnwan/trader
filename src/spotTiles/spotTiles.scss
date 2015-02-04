@@ -1,0 +1,16 @@
+#tiles {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 360px;
+  bottom: 260px;
+  background-color: #212A35;
+  overflow: auto;
+}
+
+.tile {
+  float: left;
+	list-style-type: none;
+	margin: 2px;
+}
