@@ -1,5 +1,9 @@
 {
-	"framework": "tap",
+	"framework": "mocha",
+	"src_files": [
+    "src/**/*.js",
+    "test/*.js"
+  ],
 	"serve_files": [ "bundle.js" ],
 	"before_tests": "browserify -t hbsfy -t sassify test/index.js -o bundle.js",
 	"on_exit": "rm bundle.js",
